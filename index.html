@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html manifest="cache.manifest">
+    <head>
+        <title>R-G-Bargy</title>
+        <meta name="author" content="Mr Speaker">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        
+        <link rel="apple-touch-icon" href="images/rgbargy-icon.png">
+        <link rel="apple-touch-startup-image" href="images/rgbargy.png">
+        <link rel="stylesheet" href="style/rgbargy.css" type="text/css" media="screen" charset="utf-8" />
+    </head>
+    <body>
+        <div id="container">
+            <div class="scroller">
+                <ul></ul>
+            </div>
+            <div class="scroller">
+                <ul></ul>
+            </div>
+            <div class="scroller">
+                <ul></ul>
+            </div>
+            <div class="scroller">
+                <ul></ul>
+            </div>
+            <div class="scroller">
+                <ul></ul>
+            </div>
+            <div class="scroller">
+                <ul></ul>
+            </div>
+            <ul class="static">
+                <li>#000000</li>
+            </ul>
+        </div>
+        <script src="lib/jquery-1.4.2.js" type="text/javascript" charset="utf-8"></script>
+        <script src="lib/iscroll.js" type="text/javascript" charset="utf-8"></script>
+        <script src="script/rgbargy.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+            $(function(){
+                rgbargy.init();
+            });
+        </script>
+    </body>
+</html>
